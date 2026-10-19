@@ -1,0 +1,39 @@
+# Dependencies (this project has no runtime dependencies, but keep local installs out).
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.npmrc
+.netrc
+auth.json
+credentials.json
+dsh.config.*
+*.local
+
+# Sessions, logs and runtime state.
+.dsh/
+sessions/
+logs/
+*.log
+
+# Backups and editor/OS artifacts.
+backups/
+*.bak
+*.backup
+*.orig
+*.rej
+*.swp
+*~
+.DS_Store
+
+# Test and coverage artifacts.
+coverage/
+.nyc_output/
+test-results/
+*.tmp

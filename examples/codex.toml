@@ -1,0 +1,16 @@
+# Codex CLI / Codex MCP client configuration for DeepSeek DSH MCP.
+# Replace every /absolute/path/to/... placeholder with the real absolute path.
+# This adapter is a separate project; it does not bundle the upstream DSH source
+# or its dependencies.
+
+[mcp_servers.deepseek_dsh]
+command = "node"
+args = ["/absolute/path/to/deepseek-dsh-mcp/server.mjs"]
+
+# Codex passes these variables from the environment in which `codex` starts.
+# DSH_CLI_PATH is optional when DSH is installed next to the adapter or when
+# the real `dsh` executable is on an absolute PATH entry.
+env_vars = ["PATH", "HOME", "DSH_CLI_PATH", "DEEPSEEK_API_KEY", "DSH_MCP_SEALED_ROOTS", "DSH_MCP_RUNTIME_ROOTS"]
+
+# The adapter allows timeout_seconds up to 900. Leave process-exit grace on top.
+tool_timeout_sec = 960

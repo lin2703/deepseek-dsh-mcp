@@ -1,0 +1,19 @@
+{
+  "name": "deepseek-dsh-mcp",
+  "version": "1.2.2",
+  "description": "Minimal stdio MCP adapter that delegates bounded development tasks to an installed DeepSeek Harness CLI.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lin2703/deepseek-dsh-mcp.git"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  }
+}
