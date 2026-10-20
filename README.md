@@ -200,4 +200,4 @@ printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocol
 
 ## 许可证与上游
 
-本仓库代码以根目录 [LICENSE](LICENSE) 为准，采用 MIT，Copyright (c) 2026 lin2703。上游 DSH 也是 MIT，由独立项目维护；本适配器不打包其源码或依赖。
+以根目录 [LICENSE](LICENSE) 为准，采用 MIT，Copyright (c) 2026 lin2703。
