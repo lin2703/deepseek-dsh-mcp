@@ -42,7 +42,7 @@ flowchart LR
 
 ### 2. 安装并认证 DSH
 
-本适配器不打包 DSH。先安装上游工具：
+本适配器不打包 DSH。使用前请先安装上游工具：
 
 ```sh
 npm install -g @deepseek-ai/dsh@0.2.1-rc.2
